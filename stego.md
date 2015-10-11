@@ -73,8 +73,24 @@ the flag is flag{ctf_&_chill}
 ```
 Flag: flag{ctf_&_chill}
 ```
+Cheaptrix
+===========
+For this challenge we were given a single .wav file. When played we can here two things, one is an unclear scream of: 'DO NOT TAKE ME FOR A CONJUROR  OF CHEAP TRICKS!' (From [here](https://www.youtube.com/watch?v=lKaw5SjeHx0)). The other is some sort of code, but it is hard to discern. I opened the file up in audacity. 
+![]('/img/aud.png') 
 
+I was able to mute the audio of Gandolf, and focus on what was being said:
+```
+wkq3vlhbodeyrae==
+```
 
+This looks like some sort of encoding, base64? Possibly base32?
+
+After nearly hours of trying to decode this, I tried submitting it encoded. And that worked.
+
+The challenge deserved its name.
+```
+Flag: wkq3vlhbodeyrae==
+```
 
 
 
