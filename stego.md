@@ -42,7 +42,7 @@ I can use imagemagick to diff the images, and save the output to an image.
 compare 1.png 2.png  diff.png
 ```
 And this gives us a new image:
-#INSERT IMAGE HERE
+<img src="img/diff.png" alt="" width="500" height="500">
 
 We can scan this QR code and we get: flag{steeanography_is_the_bane_of_my_existance}
 ```
