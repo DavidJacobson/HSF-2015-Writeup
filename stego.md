@@ -51,7 +51,7 @@ Flag: flag{steganography_is_the_bane_of_my_existance}
 Movie Night - 150
 ----------
 For this challenge all we are  given is a ~2 minute video from what appears to be the SpongeBob movie. It's the credits, and the hint tells us that they spotted something when watching it. Upon watching the video I noticed some text fly by the screen briefly. I wasn't able to pause the video at the exact time to be able to see the characters, so I split the video up into frames, and got this image:
-<img src="img/frame.png" alt="" width="500" height="500">
+<img src="img/frame.png" alt="" width="200" height="200">
 The cipher text is: zit ysqu ol ysqu{ezy_&_eioss}
 From this we can deduce that the cipher used was likely a simple one, as the: '_&_' and '{}' were preserved. 
 The types of ciphers would either be a Rot-n, shift cipher, or a substituion cipher. 
