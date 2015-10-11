@@ -8,3 +8,5 @@ My team Machshev (מחשב) ended up 7th in the North East, and 2nd in New York.
 ----------
 This repo contains writeups for some challenges, as of now I am writing them based off what I still have locally because the challenges have been taken offline. 
 
+Click here to navigate by category:
+#[Steganography](stego.md)
