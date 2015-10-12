@@ -27,7 +27,7 @@ Nothing got printed out?
 Interesting, the program doesn't seem to take any arguments and prints out the same thing every time. I decompiled it 
 using [Retargetable Decompiler](https://retdec.com/). 
 We see this for main()
-![](img/main.svg)
+<img src="img/main.svg" alt="">
 So this confirms my assumption that 'Nothing printed out' was printed regardless of input.
 So what does julie_do_the_thing actually do? Well, it's actually very hard to tell. 
 The function looks like this
