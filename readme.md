@@ -12,3 +12,4 @@ Click here to navigate by category:
 #[Steganography](stego.md)
 #[Recon](recon.md)
 #[Reverse engineering](rev.md)
+#[Web](web.md)
