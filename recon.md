@@ -16,3 +16,8 @@ For this challenge we need to get breadchris's birthday. We start by checking Gi
 +
 ```
 So we know to check a calendar somewhere. 
+From some more searching we find a calendar on the ISIS lab website. A quick guess-timate of Chris's age based off the fact that he is in college, and we eventually find the flag, hiding on his birthday: May 28th 1996
+
+```
+flag: flag{pwning_n00bs_since_the_d4y_1_w4$_b0rn}
+```
